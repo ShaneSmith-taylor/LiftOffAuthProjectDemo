@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AuthDemoProject.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220602194302_InitialMigration")]
+    [Migration("20221209210139_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
